@@ -1,0 +1,449 @@
+/* ======= Resets ======= */
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* h1, * h2, * h3, * h4, * h5, * h6 {
+  font-weight: 700;
+}
+
+* p {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+* h1, * h2, * h3, * h4, * h5, * h6 {
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+* a {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/*  =======  Variables ======= */
+/*  =======3. MIXIN ======= */
+/*Section 1*/
+#section01 {
+  min-height: 100vh;
+  background: url(../images/homepage/homepage-bg.png);
+  background-position: center;
+  background-size: cover;
+  /*Header*/
+  background-repeat: no-repeat;
+  /*Banner*/
+}
+
+#section01 .menu {
+  background-color: inherit;
+}
+
+#section01 .header-secondContainer {
+  width: 93%;
+  margin: 0 auto;
+  background-color: inherit;
+  padding-top: 2rem;
+}
+
+#section01 .top-bar {
+  background-color: inherit;
+}
+
+#section01 #header-right {
+  background-color: inherit;
+}
+
+#section01 a {
+  color: brown;
+  margin-right: 15px;
+}
+
+#section01 h3 {
+  margin-right: 30px;
+}
+
+#section01 img {
+  height: 2.5rem;
+}
+
+#section01 .banner-container {
+  width: 93%;
+  margin: 0 auto;
+  padding: 100px 0 0 70px;
+}
+
+#section01 .banner-container h1 {
+  line-height: 1.05;
+}
+
+#section01 .banner-container p {
+  font-size: 24px;
+  color: brown;
+  margin-top: 10px;
+}
+
+#section01 .banner-container a {
+  border-radius: 6px;
+  color: white;
+  padding: 25px 80px;
+  margin-top: 10px;
+  -webkit-box-shadow: 0px 20px 20px -15px grey;
+          box-shadow: 0px 20px 20px -15px grey;
+}
+
+/*Section 2*/
+#section02 {
+  background-color: #FDEBF7;
+  min-height: 100vh;
+  padding-top: 3rem;
+  /*Card section*/
+}
+
+#section02 .vermasBenefit {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#section02 .vermasBenefit h2 {
+  margin-bottom: 25px;
+}
+
+#section02 img {
+  width: 400px;
+}
+
+#section02 #card {
+  width: 93%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#section02 .card {
+  width: 400px;
+  margin: 0 auto;
+  background-color: inherit;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 20px 20px -15px grey;
+          box-shadow: 0px 20px 20px -15px grey;
+}
+
+#section02 .card-section {
+  background-color: white;
+  height: 80px;
+}
+
+/*Section 3*/
+#section03 {
+  min-height: 100vh;
+  background-color: azure;
+  padding-top: 3rem;
+}
+
+#section03 .section03-container {
+  width: 93%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin: 0 auto;
+}
+
+#section03 .about {
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+
+#section03 .about img {
+  max-width: 60px;
+  margin-bottom: 1rem;
+}
+
+#section03 .about p {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+#section03 .section03-icons {
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+#section03 .gummies {
+  max-width: 500px;
+}
+
+#section03 hr {
+  width: 80%;
+  border-top: 4px solid;
+  border-color: orange;
+}
+
+#section03 .gummyShow {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#section03 .section03-icons {
+  margin-top: 50px;
+}
+
+#section03 .secondButton {
+  margin: 0 auto;
+}
+
+#section03 .secondButton a {
+  color: white;
+  padding: 25px 80px;
+  border-radius: 6px;
+  margin-top: 2rem;
+}
+
+/*Section 4*/
+#section04 {
+  background: url(../images/homepage/hand-oil-image.png);
+  min-height: 100vh;
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 3rem;
+}
+
+#section04 .grid-y .cell {
+  max-width: 550px;
+  width: 100%;
+  background-color: bisque;
+}
+
+#section04 .grid-y .callout {
+  border-radius: 40px;
+}
+
+#section04 .grid-y .callout img {
+  max-width: 20px;
+}
+
+/*Section 5*/
+#section05 {
+  padding-top: 3rem;
+  min-height: 100vh;
+  width: 100%;
+  background-color: bisque;
+}
+
+#section05 .grid-container {
+  width: 93%;
+  margin: 0 auto;
+  width: 78%;
+}
+
+#section05 .grid-container img {
+  max-width: 900px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+#section05 .grid-container a {
+  color: white;
+  padding: 25px 80px;
+  border-radius: 6px;
+  margin-top: 2rem;
+}
+
+#section05 .grid-container #section5-content {
+  padding-top: 160px;
+}
+
+#section05 .grid-container #section5-content .left-palm {
+  max-width: 20%;
+  position: absolute;
+  left: 0;
+}
+
+#section05 .grid-container #section5-content .right-palm {
+  max-width: 10%;
+  position: absolute;
+  right: 0;
+}
+
+/*Section 6*/
+#section06 {
+  background-color: aliceblue;
+  min-height: 100vh;
+}
+
+/*Section 7*/
+#section07 {
+  background-color: beige;
+  min-height: 100vh;
+}
+
+#section07 .grid-container {
+  padding-top: 3rem;
+}
+
+#section07 .grid-container .firstSection img {
+  width: 50px;
+}
+
+#section07 .grid-container .firstSection img.forbes {
+  width: 150px;
+  margin-bottom: 150px;
+}
+
+#section07 .show-for-small-only.plant {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/*Section 8*/
+#section08 {
+  padding-top: 3rem;
+  min-height: 100vh;
+  background-color: white;
+  /* position dots up a bit */
+  /* dots are lines */
+  /* fill-in selected dot */
+}
+
+#section08 .carousel-cell {
+  margin-right: 3rem;
+  position: relative;
+  background-color: aliceblue;
+  border-radius: 30px;
+  width: 400px;
+}
+
+#section08 .carousel-cell .oilImage img {
+  padding-top: 3rem;
+  width: 200px;
+}
+
+#section08 .carousel-cell .oilDetails {
+  padding-top: 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#section08 .carousel-cell .oilDetails h3 {
+  font-size: 1.2rem;
+}
+
+#section08 .carousel-cell .oilAddress img {
+  width: 70px;
+  padding-bottom: 1rem;
+}
+
+#section08 .quotation img {
+  width: 60px;
+}
+
+#section08 .quotation.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#section08 .quotation.bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#section08 .flickity-page-dots {
+  bottom: -10%;
+}
+
+#section08 .flickity-page-dots .dot {
+  max-height: 10px;
+  height: 100%;
+  min-width: 150px;
+  margin: 0;
+  border-radius: 30px;
+}
+
+#section08 .flickity-button {
+  display: none;
+}
+
+#section08 .flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid inherit;
+}
+
+#section08 .flickity-page-dots .dot.is-selected {
+  background: grey;
+}
+
+/*Section 9*/
+#section09 {
+  background-color: green;
+}
+
+#section09 .backTop {
+  background-color: antiquewhite;
+  height: 150px;
+}
+
+#section09 .backTop a {
+  color: white;
+  padding: 25px 80px;
+  border-radius: 6px;
+  margin-top: 2rem;
+}
+
+#section09 .backTop img {
+  width: 100px;
+}
+
+#section09 .backTop h2 {
+  width: 100%;
+}
+
+#section09 .backTop img.arrow {
+  width: 90px;
+}
+
+#section09 .backTop .backtop-container {
+  width: 93%;
+  margin: 0 auto;
+}
+
+#section09 .lastMenu .grid-x {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+#section09 .lastMenu a {
+  color: white;
+}
+
+#section09 .lastMenu h2 {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  padding: 2rem 0;
+}
+
+#section09 #lastNav {
+  width: 50%;
+  padding-top: 2rem;
+}
+
+#section09 #lastNav a {
+  color: cadetblue;
+}
+/*# sourceMappingURL=main.css.map */
